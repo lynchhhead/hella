@@ -1,6 +1,8 @@
 #include <iostream>
+#include <ctime>
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    time_t now = time(0);
+    std::cout << "Hello, World! Current time: " << ctime(&now);
     return 0;
 }
