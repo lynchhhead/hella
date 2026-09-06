@@ -1,8 +1,7 @@
 #include <iostream>
-#include <ctime>
-
-int main() {
-    time_t now = time(0);
-    std::cout << "Hello, World! Current time: " << ctime(&now);
+int main()
+{
+    std::cout << "Hello, World!" << std::endl;
     return 0;
 }
+// TODO: Добавить проверку на пустой ввод
